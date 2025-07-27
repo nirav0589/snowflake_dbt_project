@@ -1,4 +1,22 @@
-
+# dbt build artifacts
 target/
 dbt_packages/
 logs/
+
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# macOS system files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Ignore Python venv
+.venv/
